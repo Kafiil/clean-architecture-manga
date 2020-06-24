@@ -32,11 +32,7 @@ namespace UnitTests.UseCaseTests.Register
                 ssn,
                 amount));
 
-<<<<<<< HEAD
             Assert.NotNull(presenter.AlreadyRegisteredOutput);
-=======
-            Assert.NotEmpty(presenter.AlreadyRegistered);
->>>>>>> d2070d412d3501455e8c03a82e567114033f6b9f
         }
     }
 }
